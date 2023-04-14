@@ -1,6 +1,11 @@
 if [ -z "$PS1" ] || [ "$PS1" != "bash [\W] $" ]; then
     export PS1="bash [\W] $ "
 fi
+
+if ! echo $PATH | grep -q ~/bin ; then
+  export PATH=$PATH:~/bin
+fi
+
 # habilitar el autocompletado con mayúsculas y minúsculas
 bind 'set completion-ignore-case on'
 
@@ -13,3 +18,8 @@ bind 'TAB:menu-complete'
 bind 'set show-all-if-unmodified on'
 
 export HISTCONTROL=ignoreboth:erasedups
+
+
+
+alias t="tree -L 1"
+alias ta="tree -a -L 1"
