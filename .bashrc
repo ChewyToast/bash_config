@@ -11,3 +11,5 @@ bind 'TAB:menu-complete'
 
 # mostrar sugerencias de autocompletado al presionar tab dos veces
 bind 'set show-all-if-unmodified on'
+
+export HISTCONTROL=ignoreboth:erasedups
