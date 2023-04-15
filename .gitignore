@@ -1,0 +1,24 @@
+.CFUserTextEncoding
+├── .DS_Store
+├── .Trash
+├── .bash_history
+├── .bash_sessions
+├── .git
+├── .gitignore.swp
+├── .hushlogin
+├── .ssh
+├── .vim
+├── .viminfo
+├── .vscode
+├── .zsh_history
+├── .zsh_sessions
+├── Applications
+├── Desktop
+├── Documents
+├── Downloads
+├── Library
+├── Movies
+├── Music
+├── Pictures
+├── Public
+└── bin
