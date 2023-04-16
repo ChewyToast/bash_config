@@ -1,5 +1,3 @@
-### INSTALLATION
-
  CLONE
 
 First of all clone this repo into your HOME directory with this command:
