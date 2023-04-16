@@ -1,4 +1,4 @@
-source ~/.bash_git
+source ~/.bash_config/.bash_git
 
 # Función para mostrar el estado de Git
 function git_branch {
