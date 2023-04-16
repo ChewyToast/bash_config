@@ -1,8 +1,6 @@
-# INSTALLATION
+### INSTALLATION
 
-<br>
-
-### CLONE
+ CLONE
 
 First of all clone this repo into your HOME directory with this command:
 
@@ -10,10 +8,7 @@ First of all clone this repo into your HOME directory with this command:
 cd ~ && git clone git@github.com:ChewyToast/bash_config.git
 ```
 
-<br>
-
-
-### SETUP
+ SETUP
 
 Run this two commands to create the main files in yoru HOME directory:
 
