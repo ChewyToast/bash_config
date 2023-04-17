@@ -3,7 +3,7 @@
 First of all clone this repo into your HOME directory with this command:
 
 ```
-cd ~ && git clone git@github.com:ChewyToast/bash_config.git .bash_config.git
+cd ~ && git clone git@github.com:ChewyToast/bash_config.git .bash_config
 ```
 
  SETUP
