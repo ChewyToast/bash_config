@@ -1,7 +1,17 @@
+# .bash_export
+# This file contains Bash environment variables to export.
+
+# Add ~/bin directory to PATH if it's not already there
 if ! echo $PATH | grep -q ~/bin ; then
   export PATH=$PATH:~/bin
 fi
 
+# Ignore duplicated commands and commands with leading spaces from history
 if [ -z "$HISTCONTROL" ] ; then
   export HISTCONTROL=ignoreboth:erasedups
+fi
+
+# Silence the Bash deprecation warning
+if [ -z "$BASH_SILENCE_DEPRECATION_WARNING" ] ; then
+  export BASH_SILENCE_DEPRECATION_WARNING=1
 fi

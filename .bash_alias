@@ -1,6 +1,11 @@
+# .bash_alias
+# This file contains custom alias commands for Bash shell.
+
+# Shortcuts for tree command
 alias t="tree -L 1"
 alias ta="tree -a -L 1"
 
+# Shortcuts for changing directory
 alias docs="cd ~/Documents"
 alias desk="cd ~/Desktop"
 alias down="cd ~/Downloads"

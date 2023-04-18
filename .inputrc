@@ -1,9 +1,4 @@
-# Autocompletado sin distinguir mayúsculas y minúsculas
 set completion-ignore-case on
-
-# Activar la navegación entre opciones de autocompletado
 TAB: menu-complete
-
 "\e[A": history-search-backward
 "\e[B": history-search-forward
-
