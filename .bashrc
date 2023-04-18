@@ -25,7 +25,6 @@ bind 'TAB:menu-complete'
 # mostrar sugerencias de autocompletado al presionar tab dos veces
 bind 'set show-all-if-unmodified on'
 
-export HISTCONTROL=ignoreboth:erasedups
+source ~/.bash_config/.bash_export
 
-alias t="tree -L 1"
-alias ta="tree -a -L 1"
+source ~/.bash_config/.bash_alias

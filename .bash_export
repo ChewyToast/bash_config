@@ -1,0 +1,7 @@
+if ! echo $PATH | grep -q ~/bin ; then
+  export PATH=$PATH:~/bin
+fi
+
+if [ -z "$HISTCONTROL" ] ; then
+  export HISTCONTROL=ignoreboth:erasedups
+fi

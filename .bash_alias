@@ -1,0 +1,6 @@
+alias t="tree -L 1"
+alias ta="tree -a -L 1"
+
+alias docs="cd ~/Documents"
+alias desk="cd ~/Desktop"
+alias down="cd ~/Downloads"
