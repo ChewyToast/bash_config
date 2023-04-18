@@ -1,4 +1,8 @@
- CLONE
+ FRIENDLY REMEMBER
+
+This configuration is intended for my particular use, if you want the best possible adaptation you must manually configure the configuration files in your own way.
+
+CLONE
 
 First of all clone this repo into your HOME directory with this command:
 
