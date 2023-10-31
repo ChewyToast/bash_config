@@ -1,4 +1,26 @@
+# completition
 set completion-ignore-case on
-TAB: menu-complete
+
+set show-all-if-ambiguous on
+set menu-complete-display-prefix on
+set skip-completed-text on
+
+# disable signal charachers as ^C
+set echo-control-characters off
+
+# pasting lines with \n execute them
+set enable-bracketed-paste off
+
+# history search
+# up arrow
 "\e[A": history-search-backward
+# down arrow
 "\e[B": history-search-forward
+# ^P
+"\020": history-search-backward
+# ^N
+"\016": history-search-forward
+
+# menu complete
+TAB: menu-complete
+"\e[Z": menu-complete-backward
